@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sampleform",
+    "label": "Sample form",
+    "description": "Opens the sample form",
+    "extensions": [
+      {
+        "id": "patientDashboard.visitActions.sampleform",
+        "extensionPointId": "patientDashboard.visitActions",
+        "type": "link",
+        "label": "makensonregistrationapp.sampleform.label",
+        "url": "htmlformentryui/htmlform/enterHtmlFormWithStandardUi.page?patientId={{patient.uuid}}&visitId={{visit.id}}&definitionUiResource=makensonregistrationapp:htmlforms/sample.xml",
+        "icon": "icon-user",
+        "order": 1
+      }
+    ]
+  }
+]
