@@ -1,0 +1,3 @@
+org/openmrs/module/makensonregistrationapp/web/controller/MakensonregistrationappController.class
+org/openmrs/module/makensonregistrationapp/extension/html/AdminList.class
+org/openmrs/module/makensonregistrationapp/fragment/controller/UsersFragmentController.class

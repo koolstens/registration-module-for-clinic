@@ -1,0 +1,6 @@
+org/openmrs/module/makensonregistrationapp/api/dao/MakensonregistrationappDao.class
+org/openmrs/module/makensonregistrationapp/api/MakensonregistrationappService.class
+org/openmrs/module/makensonregistrationapp/api/impl/MakensonregistrationappServiceImpl.class
+org/openmrs/module/makensonregistrationapp/MakensonregistrationappConfig.class
+org/openmrs/module/makensonregistrationapp/Item.class
+org/openmrs/module/makensonregistrationapp/MakensonregistrationappActivator.class

@@ -1,0 +1,7 @@
+<!-- form encounter type is uuid of "Check-In" encounter type installs as part of ref app -->
+<!-- form uuid is a randon uuid generated here: -->
+<htmlform formUuid="e8d63aeb-9cce-40fa-9a38-b81b9bb65876" formName="Sample"
+          formEncounterType="ca3aed11-1aa4-42a1-b85c-8332fc8001fc" formVersion="1.0">
+    <encounterDate></encounterDate>
+    <encounterLocation></encounterLocation>
+</htmlform>

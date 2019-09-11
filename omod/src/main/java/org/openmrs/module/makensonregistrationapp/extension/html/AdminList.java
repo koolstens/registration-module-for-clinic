@@ -17,7 +17,8 @@ import org.openmrs.module.web.extension.AdministrationSectionExt;
 
 /**
  * This class defines the links that will appear on the administration page under the
- * "makensonregistrationapp.title" heading. This extension is enabled by defining (uncommenting) it in the config.xml file.
+ * "makensonregistrationapp.title" heading. This extension is enabled by defining (uncommenting) it
+ * in the config.xml file.
  */
 public class AdminList extends AdministrationSectionExt {
 	
@@ -44,7 +45,7 @@ public class AdminList extends AdministrationSectionExt {
 		
 		map.put("module/makensonregistrationapp/makensonregistrationapp.form", "makensonregistrationapp.title");
 		map.put("makensonregistrationapp/makensonregistrationapp.page", "makensonregistrationapp.refapp.title");
-
+		
 		return map;
 	}
 	
