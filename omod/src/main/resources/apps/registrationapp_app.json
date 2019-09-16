@@ -10,7 +10,7 @@
         "extensionPointId": "org.openmrs.referenceapplication.homepageLink",
         "type": "link",
         "label": "New Registration App",
-        "url": "registrationapp/registerPatient.page?appId=referenceapplication.registrationapp.registerPatient",
+        "url": "registrationapp/registerPatient.page?appId=registrationapp.registerPatient",
         "icon": "icon-user",
         "order": 1,
         "requiredPrivilege": "App: registrationapp.registerPatient"
@@ -87,16 +87,22 @@
         {
           "id": "myPersonAttributeLabel",
           "label": "My new zone",
-          "fields": [
+          "questions": [
             {
-              "type": "personAttribute",
-              "label": "Mother's Name",
-              "formFieldName": "mothersName",
-              "uuid": "8d871d18-c2cc-11de-8d13-0010c6dffd0f",
-              "widget": {
-                "providerName": "uicommons",
-                "fragmentId": "field/text"
-              }
+              "legend": "Legend_text",
+              "header": "Header_text",
+              "fields": [
+                {
+                  "type": "personAttribute",
+                  "label": "Mother's Name",
+                  "formFieldName": "mothersName",
+                  "uuid": "8d871d18-c2cc-11de-8d13-0010c6dffd0f",
+                  "widget": {
+                    "providerName": "uicommons",
+                    "fragmentId": "field/text"
+                  }
+                }
+              ]
             }
           ]
         }
